@@ -1,0 +1,109 @@
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 8px;
+}
+
+.centerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.centerbox #clock {
+    font-size: 60px;
+    margin: 0;
+    padding-top: 200px;
+}
+
+
+.centerbox .login-form  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid beige;
+    background: transparent;
+    color: beige;
+    font-size: 25px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.centerbox .greeting {
+    margin-top: 50px;
+}
+
+.centerbox .login-form  input::placeholder {
+    color: bisque;
+}
+
+.centerbox #todo-form input::placeholder {
+    color: bisque;
+}
+.centerbox #todo-form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid beige;
+    background: transparent;
+    color: beige;
+    font-size: 25px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+
+.centerbox #todo-form input,
+.centerbox .login-form input:focus {
+    outline: none;
+}
+
+.centerbox #todo-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 300px;
+}
+
+.centerbox #todo-list li{
+    font-size: 34px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.last-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+
